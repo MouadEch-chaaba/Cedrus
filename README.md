@@ -22,11 +22,11 @@ other users ideas but only the creator of the idea that could update or delete i
 
 |Method|Endpoint|Description|
 |------|:---------------------:|------------------------------------------:|
-|GET   |/users/<id>/ideas/​     |​allow to list all ideas of a specific user.|
-|GET   |/users/<id>/ideas/<id>/​|​allow to retrieve an idea.                 |
-|POST  |/users/<id>/ideas/     ​​|​allow to create a new idea.                |
-|PUT   |/users/<id>/ideas/<id>/​​|​allow to modify an existing idea.          |
-|DELETE|/users/<id>/ideas/<id>/​​|​allow to delete an idea.                   |
+|GET   |/users/```<id>```/ideas/​     |​allow to list all ideas of a specific user.|
+|GET   |/users/```<id>```/ideas/```<id>```/​|​allow to retrieve an idea.                 |
+|POST  |/users/```<id>```/ideas/     ​​|​allow to create a new idea.                |
+|PUT   |/users/```<id>```/ideas/```<id>```/​​|​allow to modify an existing idea.          |
+|DELETE|/users/```<id>```/ideas/```<id>```/​​|​allow to delete an idea.                   |
 
 * Authentication:
     
